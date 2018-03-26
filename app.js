@@ -19,7 +19,7 @@ const urls = [
 ];
 
 for(let url of urls) {
-  spider(url, () => {
+  spider(url, 1,() => {
     console.log(url, 'spidered!!');
   });
 }
